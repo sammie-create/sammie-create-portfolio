@@ -24,8 +24,7 @@ const projects = [
     imgSrc: "/images/project-3.jpg",
     title: "SunnySide Agency Landing Page",
     tags: ["UI", "Responsive", "Sass", "Figma"],
-    projectLink:
-      "https://sammie-create.github.io/sunnyside-agency-landing-page",
+    projectLink: "https://sunnyside-agency-landing-page-beryl-one.vercel.app/",
   },
   {
     imgSrc: "/images/project-4.jpg",

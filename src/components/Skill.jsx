@@ -60,7 +60,7 @@ const Skill = () => {
           seamless and visually stunning web experiences:
         </p>
 
-        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
+        <div className="grid gap-3 grid-cols-2 sm:grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] ">
           {toolKit.map(({ imgSrc, label, desc }, key) => (
             <SkillCard
               key={key}
