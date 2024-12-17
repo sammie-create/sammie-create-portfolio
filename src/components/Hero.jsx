@@ -54,7 +54,7 @@ const Hero = () => {
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] h-full max-h-[500px] ml-auto rounded-full overflow-hidden">
             <img
-              src="/images/hero-banner.JPG"
+              src="/images/hero-img.JPG"
               alt="Samuel Durumba"
               className="h-full w-full"
             />
