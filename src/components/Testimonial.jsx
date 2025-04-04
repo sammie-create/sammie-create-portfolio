@@ -17,7 +17,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const testimonials = [
   {
-    id: Math.floor(1000 + Math.random() * 9000),
+    id: 6393,
     content:
       "A Fantastic job on the website! The website is modern and professional, user-friendly and perfectly reflects our brand.",
     name: "Simon Durumba",
@@ -25,7 +25,7 @@ const testimonials = [
     company: "WorldSmith Company",
   },
   {
-    id: Math.floor(1000 + Math.random() * 9000),
+    id: 6394,
     content:
       "Samuel delivers clean, user-friendly interfaces with great attention to detail. A skilled and reliable frontend developer!",
     name: "Sarah Johnson",
@@ -33,7 +33,7 @@ const testimonials = [
     company: "Techwave",
   },
   {
-    id: Math.floor(1000 + Math.random() * 9000),
+    id: 6395,
     content:
       "Fantastic to work with! Samuel builds smooth, responsive designs and stays ahead of the latest frontend trends.",
     name: "Mustapha Semilore",
