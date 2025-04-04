@@ -40,7 +40,7 @@ const testimonials = [
   {
     id: 6396,
     content:
-      "Working with Samuel has been an amazing experience! Their frontend skills bring designs to life with precision and responsiveness. Highly recommended",
+      "Working with Samuel has been an amazing experience! His frontend skills bring designs to life with precision and responsiveness. Highly recommended",
     name: "Mike Davis",
     company: "UI/UX Designer",
   },
