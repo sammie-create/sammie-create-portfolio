@@ -21,7 +21,6 @@ const testimonials = [
     content:
       "A Fantastic job on the website! The website is modern and professional, user-friendly and perfectly reflects our brand.",
     name: "Simon Durumba",
-    imgSrc: "/images/sd-logo.png",
     company: "WorldSmith Company",
   },
   {
@@ -29,7 +28,6 @@ const testimonials = [
     content:
       "Samuel delivers clean, user-friendly interfaces with great attention to detail. A skilled and reliable frontend developer!",
     name: "Sarah Johnson",
-    imgSrc: "/images/sd-logo.png",
     company: "Techwave",
   },
   {
@@ -37,16 +35,15 @@ const testimonials = [
     content:
       "Fantastic to work with! Samuel builds smooth, responsive designs and stays ahead of the latest frontend trends.",
     name: "Mustapha Semilore",
-    imgSrc: "/images/sd-logo.png",
     company: "Fullstack Developer",
   },
-  // {
-  //   content:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi explicabo voluptates rerum vitae ea corporis assumenda animi deleniti!",
-  //   name: "Sarah Durumba",
-  //   imgSrc: "/images/sd-logo.png",
-  //   company: "StarPix",
-  // },
+  {
+    id: 6396,
+    content:
+      "Working with Samuel has been an amazing experience! Their frontend skills bring designs to life with precision and responsiveness. Highly recommended",
+    name: "Mike Davis",
+    company: "UI/UX Designer",
+  },
 ];
 
 const Testimonial = () => {
@@ -54,7 +51,7 @@ const Testimonial = () => {
     gsap.to(".scrub-slide", {
       scrollTrigger: {
         trigger: ".scrub-slide",
-        start: "50% 20%",
+        start: "250% 20%",
         end: "200% 20%",
         scrub: true,
       },
