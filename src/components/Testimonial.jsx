@@ -54,7 +54,7 @@ const Testimonial = () => {
     gsap.to(".scrub-slide", {
       scrollTrigger: {
         trigger: ".scrub-slide",
-        start: "-50% 20%",
+        start: "50% 20%",
         end: "200% 20%",
         scrub: true,
       },
