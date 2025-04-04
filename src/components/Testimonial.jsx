@@ -17,6 +17,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const testimonials = [
   {
+    id: Math.floor(1000 + Math.random() * 9000),
     content:
       "A Fantastic job on the website! The website is modern and professional, user-friendly and perfectly reflects our brand.",
     name: "Simon Durumba",
@@ -24,26 +25,28 @@ const testimonials = [
     company: "WorldSmith Company",
   },
   {
+    id: Math.floor(1000 + Math.random() * 9000),
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi explicabo voluptates rerum vitae ea corporis assumenda animi deleniti!",
-    name: "Sarah Durumba",
+      "Samuel delivers clean, user-friendly interfaces with great attention to detail. A skilled and reliable frontend developer!",
+    name: "Sarah Johnson",
     imgSrc: "/images/sd-logo.png",
-    company: "StarPix",
+    company: "Techwave",
   },
   {
+    id: Math.floor(1000 + Math.random() * 9000),
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi explicabo voluptates rerum vitae ea corporis assumenda animi deleniti!",
-    name: "Sarah Durumba",
+      "Fantastic to work with! Samuel builds smooth, responsive designs and stays ahead of the latest frontend trends.",
+    name: "Mustapha Semilore",
     imgSrc: "/images/sd-logo.png",
-    company: "StarPix",
+    company: "Fullstack Developer",
   },
-  {
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi explicabo voluptates rerum vitae ea corporis assumenda animi deleniti!",
-    name: "Sarah Durumba",
-    imgSrc: "/images/sd-logo.png",
-    company: "StarPix",
-  },
+  // {
+  //   content:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi explicabo voluptates rerum vitae ea corporis assumenda animi deleniti!",
+  //   name: "Sarah Durumba",
+  //   imgSrc: "/images/sd-logo.png",
+  //   company: "StarPix",
+  // },
 ];
 
 const Testimonial = () => {
@@ -65,11 +68,11 @@ const Testimonial = () => {
         <h2 className="headline-2 mb-8 reveal-up">Testimonials</h2>
 
         <div className="scrub-slide flex items-stretch gap-3 w-fit">
-          {testimonials.map(({ content, name, imgSrc, company }, key) => (
+          {testimonials.map(({ id, content, name, company }, key = { id }) => (
             <TestimonialCard
               key={key}
               name={name}
-              imgSrc={imgSrc}
+              imgSrc={`https://i.pravatar.cc/48?u=${id}`}
               company={company}
               content={content}
             />
