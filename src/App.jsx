@@ -8,7 +8,7 @@ import { ReactLenis } from "lenis/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+// import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 // Register GSAP Plugin
 gsap.registerPlugin(useGSAP, ScrollTrigger);
@@ -22,6 +22,7 @@ import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import UpdateToast from "./components/updateToast";
 
 const App = () => {
   useGSAP(() => {
@@ -46,7 +47,8 @@ const App = () => {
   return (
     <ReactLenis root>
       <Header />
-      <main>
+      <main className="relative">
+        <UpdateToast />
         <Hero />
         <Bio />
         <Skill />

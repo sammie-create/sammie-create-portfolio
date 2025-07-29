@@ -20,15 +20,16 @@ const Bio = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-[18px] md:max-w-[60ch]">
-            Hi, I&apos;m Samuel Durumba, a front-end developer with over two
-            years of experience in HTML, CSS, and JavaScript. I create
-            responsive web applications focusing on usability and design. My
-            portfolio showcases diverse projects, including interactive games,
-            business websites, and educational platforms, demonstrating my
-            ability to translate ideas into intuitive user experiences.
-            Currently advancing my React expertise, I&apos;m passionate about
-            building innovative digital solutions that meet user needs and
-            exceed expectations.
+            Hi, I&apos;m Samuel Durumba, a Creative and versatile full-stack
+            developer with proven expertise in building responsive, user-centric
+            web applications. Proficient in JavaScript, React, Next.js, Tailwind
+            CSS, and Java/Spring Boot with MySQL. Skilled in scalable design
+            systems, AI-driven user experience, and integrating third-party
+            services. Adept at optimizing performance, managing complex state,
+            and delivering seamless end-to-end solutions while working within
+            cross-functional teams. I&apos;m passionate about building
+            innovative digital solutions that meet user needs and exceed
+            expectations.
             <span className="block pt-2">
               Let&apos;s build something remarkable together.
             </span>

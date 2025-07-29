@@ -13,7 +13,7 @@ const toolKit = [
     desc: "Web Development",
   },
   {
-    imgSrc: "/images/css.svg",
+    imgSrc: "/images/tailwind-css.svg",
     label: "CSS",
     desc: "User Interface",
   },
@@ -46,6 +46,11 @@ const toolKit = [
     imgSrc: "images/github.svg",
     label: "GitHub",
     desc: "Version Control",
+  },
+  {
+    imgSrc: "images/supabase-logo-icon.svg",
+    label: "Supabase",
+    desc: "Backend Management: DB, Auth...",
   },
 ];
 
