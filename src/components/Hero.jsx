@@ -14,11 +14,11 @@ const Hero = () => {
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10 lg:h-[500px]">
         <div>
           <div className="flex items-center gap-3">
-            <figure className="img-box w-12 h-12 rounded-lg flex items-center justify-center">
+            <figure className="flex items-center justify-center w-12 h-12 rounded-lg img-box">
               <img
                 src="/images/sd-logo.png"
                 alt="Samuel Durumba Avater"
-                className="img-cover align-middle"
+                className="align-middle img-cover"
                 style={{ width: "44px", height: "44px" }}
               />
             </figure>
@@ -56,7 +56,7 @@ const Hero = () => {
             <img
               src="/images/hero-img.JPG"
               alt="Samuel Durumba"
-              className="h-full w-full"
+              className="w-full h-full"
             />
           </figure>
         </div>

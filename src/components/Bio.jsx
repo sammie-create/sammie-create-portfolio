@@ -10,7 +10,7 @@ const bioItems = [
   },
   {
     label: "Years of experience",
-    number: 2,
+    number: 3,
   },
 ];
 
@@ -42,7 +42,7 @@ const Bio = () => {
                   <span className="text-2xl font-bold md:text-4xl">
                     {number}
                   </span>
-                  <span className="text-blue-500 font-semibold md:text-3xl">
+                  <span className="font-semibold text-blue-500 md:text-3xl">
                     +
                   </span>
                 </div>
